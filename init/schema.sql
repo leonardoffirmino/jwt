@@ -1,0 +1,7 @@
+-- Active: 1776382932116@@127.0.0.1@3306
+CREATE TABLE IF NOT EXISTS 'users' (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    username TEXT NOT NULL,
+    password TEXT NOT NULL,
+    balance FLOAT NOT NULL
+);
